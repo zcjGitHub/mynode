@@ -1,0 +1,2 @@
+# mynode
+node application
