@@ -1,0 +1,30 @@
+{
+  "name": "mynode",
+  "version": "1.0.0",
+  "description": "node application",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "express": "^4.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zcjGitHub/mynode.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zcjGitHub/mynode/issues"
+  },
+  "homepage": "https://github.com/zcjGitHub/mynode#readme"
+}
