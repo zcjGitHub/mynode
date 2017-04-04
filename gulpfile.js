@@ -36,7 +36,7 @@ var lessSrc = 'public/less/*.less',
 gulp.task('style', function() {
 
     gulp.watch('public/less/*.less', {}, function (event) {
-
+        console.log('-----------',event);
         var path = event.path.replace(/\\/g, '/'),
             reg = path.match(/(public\/less(\/\w+)*)?\/([\w]+.less)?$/);
 
@@ -87,6 +87,6 @@ gulp.task('min', function() {
 
 
 
-gulp.task('default', gulp.parallel('less','js'));
+gulp.task('default', gulp.parallel('style','js'));
 gulp.task('build', gulp.parallel('min'));
 
